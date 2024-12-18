@@ -10,13 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-<<<<<<< HEAD
     "json-server": "^1.0.0-beta.3",
     "react-router-dom": "^7.0.2"
   }
-=======
-    "json-server": "^1.0.0-beta.3"
-  }
-  
->>>>>>> b93e7a20fdf62c122c29518d52c01450bf1b33f2
 }

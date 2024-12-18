@@ -1,5 +1,6 @@
 import React from "react";
-import RecipesList from "../components/RecipesList";
+import HomePage from "./pages/HomePage";
+import RecipesList from "./components/RecipesList.jsx";
 
 const HomePage = () => {
   return (
