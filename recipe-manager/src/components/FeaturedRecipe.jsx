@@ -1,29 +1,22 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+import React from "react";
 
-const RecipesList = () => {
-  const [recipes, setRecipes] = useState([]);
-
-  useEffect(() => {
-    axios.get("http://localhost:3001/recipes")
-      .then((response) => setRecipes(response.data))
-      .catch((error) => console.error("Error fetching recipes:", error));
-  }, []);
-
+const FeaturedRecipe = ({ recipe }) => {
   return (
-    <div>
-      <h2>Recipe List</h2>
-      <ul>
-        {recipes.map((recipe) => (
-          <li key={recipe.id}>
-            <h3>{recipe.title}</h3>
-            <p>Ingredients: {recipe.ingredients.join(", ")}</p>
-            <p>Steps: {recipe.steps.join(" → ")}</p>
-          </li>
+    <div style={{ border: "1px solid #ccc", padding: "20px", borderRadius: "8px", marginBottom: "20px" }}>
+      <h2>Featured Recipe: {recipe.title}</h2>
+      <p>
+        <strong>Ingredients:</strong> {recipe.ingredients.join(", ")}
+      </p>
+      <p>
+        <strong>Steps:</strong>
+      </p>
+      <ol>
+        {recipe.steps.map((step, index) => (
+          <li key={index}>{step}</li>
         ))}
-      </ul>
+      </ol>
     </div>
   );
 };
 
-export default RecipesList;
+export default FeaturedRecipe;
