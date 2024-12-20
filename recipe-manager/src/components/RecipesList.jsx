@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import axios from "axios";
 
 const RecipesList = () => {
@@ -6,21 +7,25 @@ const RecipesList = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    axios.get("http://localhost:3001/recipes")
+    axios
+      .get("http://localhost:3001/recipes")
       .then((response) => setRecipes(response.data))
-      .catch((error) => setError("Failed to load recipes."));
+      .catch((err) => setError("Failed to load recipes."));
   }, []);
+
+  if (error) {
+    return <p style={{ color: "red" }}>{error}</p>;
+  }
 
   return (
     <div>
       <h2>All Recipes</h2>
-      {error && <p style={{ color: "red" }}>{error}</p>}
       <ul>
         {recipes.map((recipe) => (
           <li key={recipe.id}>
-            <h3>{recipe.title}</h3>
-            <p>Ingredients: {recipe.ingredients.join(", ")}</p>
-            <p>Steps: {recipe.steps.join(" → ")}</p>
+            <Link to={`/recipe/${recipe.id}`}>
+              <h3>{recipe.title}</h3>
+            </Link>
           </li>
         ))}
       </ul>
