@@ -1,24 +1,87 @@
 {
   "recipes": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Spaghetti Bolognese",
       "description": "A classic Italian pasta dish with a rich meat sauce.",
-      "ingredients": ["spaghetti", "ground beef", "tomato sauce"],
-      "steps": ["Boil water", "Cook pasta", "Prepare sauce", "Serve"],
-      "tags": ["Dinner", "Italian", "Quick Meal"],
+      "ingredients": [
+        "spaghetti",
+        "ground beef",
+        "tomato sauce"
+      ],
+      "steps": [
+        "Boil water",
+        "Cook pasta",
+        "Prepare sauce",
+        "Serve"
+      ],
+      "tags": [
+        "Dinner",
+        "Italian",
+        "Quick Meal"
+      ],
       "difficulty": "Easy",
       "lastUpdated": "2024-12-20 15:30"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Chicken Curry",
       "description": "A flavorful curry with tender chicken pieces.",
-      "ingredients": ["chicken", "curry powder", "coconut milk", "onions", "garlic"],
-      "steps": ["Cook chicken", "Prepare curry sauce", "Combine and simmer"],
-      "tags": ["Dinner", "Indian", "Spicy"],
+      "ingredients": [
+        "chicken",
+        "curry powder",
+        "coconut milk",
+        "onions",
+        "garlic"
+      ],
+      "steps": [
+        "Cook chicken",
+        "Prepare curry sauce",
+        "Combine and simmer"
+      ],
+      "tags": [
+        "Dinner",
+        "Indian",
+        "Spicy"
+      ],
       "difficulty": "Medium",
       "lastUpdated": "2024-12-20 14:15"
+    },
+    {
+      "id": "e90b",
+      "title": "QOVURMA",
+      "description": "ET,ET,ET,",
+      "ingredients": [
+        "ET",
+        "ET",
+        "ET"
+      ],
+      "steps": [
+        "BISIR",
+        "QAYNAT",
+        "VURBEDENE"
+      ],
+      "tags": [
+        ""
+      ],
+      "difficulty": "Hard",
+      "lastUpdated": "2024-12-20T21:32:53.190Z"
+    },
+    {
+      "id": "8171",
+      "title": "SALAM",
+      "description": "MOLODYKİA",
+      "ingredients": [
+        "ASKJHSKD"
+      ],
+      "steps": [
+        "SDJFKJSDH"
+      ],
+      "tags": [
+        "JSDHFKJSDHF"
+      ],
+      "difficulty": "Hard",
+      "lastUpdated": "2024-12-20T21:44:04.669Z"
     }
   ]
 }
