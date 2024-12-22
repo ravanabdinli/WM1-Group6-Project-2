@@ -21,7 +21,7 @@
         "Quick Meal"
       ],
       "difficulty": "Easy",
-      "lastUpdated": "2024-12-20 15:30"
+      "lastUpdated": "2024-12-22T18:36:09.548Z"
     },
     {
       "id": "2",
@@ -45,7 +45,7 @@
         "Spicy"
       ],
       "difficulty": "Medium",
-      "lastUpdated": "2024-12-20 14:15"
+      "lastUpdated": "2024-12-22T18:32:33.604Z"
     },
     {
       "id": "e90b",
@@ -83,5 +83,6 @@
       "difficulty": "Hard",
       "lastUpdated": "2024-12-20T21:44:04.669Z"
     }
+   
   ]
 }

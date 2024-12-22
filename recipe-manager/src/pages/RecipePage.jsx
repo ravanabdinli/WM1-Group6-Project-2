@@ -19,8 +19,18 @@ const RecipePage = () => {
     setRecipe((prevRecipe) => ({ ...prevRecipe, [name]: value }));
   };
 
+  const handleArrayInputChange = (e, field) => {
+    const value = e.target.value.split(",").map((item) => item.trim());
+    setRecipe((prevRecipe) => ({ ...prevRecipe, [field]: value }));
+  };
+
   const handleSave = () => {
-    axios.put(`http://localhost:3001/recipes/${id}`, recipe).then((response) => {
+    const updatedRecipe = {
+      ...recipe,
+      lastUpdated: new Date().toISOString(),
+    };
+
+    axios.put(`http://localhost:3001/recipes/${id}`, updatedRecipe).then((response) => {
       setRecipe(response.data);
       setIsEditing(false);
     });
@@ -33,6 +43,15 @@ const RecipePage = () => {
   };
 
   if (!recipe) return <p>Loading...</p>;
+
+  const formattedLastUpdated = new Date(recipe.lastUpdated).toLocaleString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+  });
 
   return (
     <div
@@ -64,7 +83,7 @@ const RecipePage = () => {
             style={{ width: "100%", padding: "10px", marginBottom: "10px" }}
           />
           <p>
-            Difficulty Level:{" "}
+            <strong>Difficulty Level: </strong>
             <select
               name="difficulty"
               value={recipe.difficulty}
@@ -75,6 +94,30 @@ const RecipePage = () => {
               <option value="Medium">Medium</option>
               <option value="Hard">Hard</option>
             </select>
+          </p>
+          <p>
+            <strong>Ingredients: </strong>
+            <textarea
+              value={recipe.ingredients.join(", ")}
+              onChange={(e) => handleArrayInputChange(e, "ingredients")}
+              style={{ width: "100%", padding: "10px", marginBottom: "10px" }}
+            />
+          </p>
+          <p>
+            <strong>Preparation Steps: </strong>
+            <textarea
+              value={recipe.steps.join(". ")}
+              onChange={(e) => handleArrayInputChange(e, "steps")}
+              style={{ width: "100%", padding: "10px", marginBottom: "10px" }}
+            />
+          </p>
+          <p>
+            <strong>Tags: </strong>
+            <textarea
+              value={recipe.tags.join(", ")}
+              onChange={(e) => handleArrayInputChange(e, "tags")}
+              style={{ width: "100%", padding: "10px", marginBottom: "10px" }}
+            />
           </p>
           <button onClick={handleSave} style={{ padding: "10px", marginRight: "10px" }}>
             Save
@@ -96,7 +139,7 @@ const RecipePage = () => {
             <strong>Difficulty Level:</strong> {recipe.difficulty}
           </p>
           <p>
-            <strong>Last Updated:</strong> {recipe.lastUpdated}
+            <strong>Last Updated:</strong> {formattedLastUpdated}
           </p>
           <h3>Ingredients</h3>
           <ul>
