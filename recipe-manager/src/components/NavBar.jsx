@@ -5,28 +5,27 @@ const NavBar = () => {
   return (
     <div
       style={{
+        position: "fixed",
+        top: 0,
+        left: 0,
         width: "200px",
         height: "100vh",
         background: "#333",
         color: "#fff",
+        boxShadow: "2px 0 5px rgba(0, 0, 0, 0.2)",
         padding: "20px",
-        position: "fixed",
-        top: 0,
-        left: 0,
-        overflowY: "auto",
-        boxShadow: "2px 0 5px rgba(0,0,0,0.1)",
-        fontFamily: "Arial, sans-serif",
+        boxSizing: "border-box",
       }}
     >
-      <h3>Recipe Manager</h3>
+      <h2>Recipe Manager</h2>
       <nav>
-        <ul style={{ listStyle: "none", padding: 0 }}>
-          <li style={{ margin: "15px 0" }}>
+        <ul style={{ listStyleType: "none", padding: 0, margin: 0 }}>
+          <li style={{ marginBottom: "15px" }}>
             <Link to="/" style={{ textDecoration: "none", color: "#fff" }}>
               Home
             </Link>
           </li>
-          <li style={{ margin: "15px 0" }}>
+          <li>
             <Link to="/create" style={{ textDecoration: "none", color: "#fff" }}>
               Create Recipe
             </Link>

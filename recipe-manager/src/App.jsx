@@ -2,28 +2,29 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import RecipePage from "./pages/RecipePage";
-import CreateRecipe from "./components/CreateRecipe";
-import { DndProvider } from "react-dnd";
-import { HTML5Backend } from "react-dnd-html5-backend";
+import CreateRecipePage from "./pages/CreateRecipePage";
+import NavBar from "./components/NavBar";
 
-
-function App() {
+const App = () => {
   return (
-    <DndProvider backend={HTML5Backend}>
-      <Router>
-        <div style={{ display: "flex" }}>
-          <NavBar /> {/* NavBar is always visible */}
-          <div style={{ marginLeft: "200px", padding: "20px", width: "100%" }}>
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/create" element={<CreateRecipePage />} />
-              <Route path="/recipe/:id" element={<RecipePage />} />
-            </Routes>
-          </div>
+    <Router>
+      <div style={{ display: "flex", height: "100vh" }}>
+        {/* NavBar on the left */}
+        <div style={{ width: "200px", flexShrink: 0 }}>
+          <NavBar />
         </div>
-      </Router>
-    </DndProvider>
+
+        {/* Main content on the right */}
+        <div style={{ flex: 1, padding: "20px", overflowY: "auto" }}>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/recipe/:id" element={<RecipePage />} />
+            <Route path="/create" element={<CreateRecipePage />} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

@@ -1,77 +1,42 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import { useDrag, useDrop } from "react-dnd";
-
-const RecipeCard = ({ recipe, index, moveRecipe }) => {
-  const [, ref] = useDrag({
-    type: "RECIPE",
-    item: { index },
-  });
-
-  const [, drop] = useDrop({
-    accept: "RECIPE",
-    hover: (draggedItem) => {
-      if (draggedItem.index !== index) {
-        moveRecipe(draggedItem.index, index);
-        draggedItem.index = index;
-      }
-    },
-  });
-
-  return (
-    <div
-      ref={(node) => ref(drop(node))}
-      style={{
-        padding: "10px",
-        marginBottom: "10px",
-        border: "1px solid #ddd",
-        borderRadius: "5px",
-        backgroundColor: "#f9f9f9",
-        cursor: "move",
-      }}
-    >
-      <h3>
-        <Link
-          to={`/recipe/${recipe.id}`}
-          style={{ textDecoration: "none", color: "#007bff" }}
-        >
-          {recipe.title}
-        </Link>
-      </h3>
-      <p>{recipe.description}</p>
-    </div>
-  );
-};
 
 const HomePage = () => {
   const [recipes, setRecipes] = useState([]);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [selectedRecipes, setSelectedRecipes] = useState([]);
 
   useEffect(() => {
+    // Fetch recipes from the backend
     axios.get("http://localhost:3001/recipes").then((response) => {
-      const sortedRecipes = response.data.sort((a, b) => a.position - b.position);
-      setRecipes(sortedRecipes);
+      setRecipes(response.data);
     });
   }, []);
 
-  const moveRecipe = (fromIndex, toIndex) => {
-    const updatedRecipes = [...recipes];
-    const [movedRecipe] = updatedRecipes.splice(fromIndex, 1);
-    updatedRecipes.splice(toIndex, 0, movedRecipe);
-
-    // Update the position property
-    updatedRecipes.forEach((recipe, index) => {
-      recipe.position = index + 1;
-    });
-
-    setRecipes(updatedRecipes);
+  const handleSearch = (e) => {
+    setSearchQuery(e.target.value.toLowerCase());
   };
 
-  const saveOrder = () => {
-    axios
-      .put("http://localhost:3001/recipes", recipes)
-      .then(() => alert("Order saved!"))
-      .catch((error) => console.error("Failed to save order:", error));
+  const handleCheckboxChange = (id) => {
+    setSelectedRecipes((prevSelected) => {
+      if (prevSelected.includes(id)) {
+        return prevSelected.filter((recipeId) => recipeId !== id);
+      } else {
+        return [...prevSelected, id];
+      }
+    });
+  };
+
+  const handleShare = () => {
+    const selectedRecipeData = recipes.filter((recipe) =>
+      selectedRecipes.includes(recipe.id)
+    );
+    const jsonData = JSON.stringify(selectedRecipeData, null, 2);
+
+    // Open the user's default email client with the JSON data
+    const emailBody = encodeURIComponent(`Here are the recipes in JSON format:\n\n${jsonData}`);
+    window.location.href = `mailto:?subject=Shared Recipes&body=${emailBody}`;
   };
 
   return (
@@ -86,31 +51,71 @@ const HomePage = () => {
       <h1>Welcome to Recipe Manager!</h1>
       <p>Your go-to app for managing recipes!</p>
 
+      <div style={{ marginBottom: "20px" }}>
+        <h3>Search Recipes</h3>
+        <input
+          type="text"
+          placeholder="Search by title, description, or ingredients..."
+          value={searchQuery}
+          onChange={handleSearch}
+          style={{ width: "100%", padding: "10px", marginBottom: "10px" }}
+        />
+      </div>
+
       <div>
         <h2>All Recipes</h2>
-        {recipes.map((recipe, index) => (
-          <RecipeCard
-            key={recipe.id}
-            recipe={recipe}
-            index={index}
-            moveRecipe={moveRecipe}
-          />
-        ))}
-        <button
-          onClick={saveOrder}
-          style={{
-            padding: "10px 20px",
-            backgroundColor: "#007bff",
-            color: "#fff",
-            border: "none",
-            borderRadius: "5px",
-            cursor: "pointer",
-            marginTop: "20px",
-          }}
-        >
-          Save Order
-        </button>
+        {recipes
+          .filter(
+            (recipe) =>
+              recipe.title.toLowerCase().includes(searchQuery) ||
+              recipe.description.toLowerCase().includes(searchQuery)
+          )
+          .map((recipe) => (
+            <div
+              key={recipe.id}
+              style={{
+                padding: "10px",
+                marginBottom: "10px",
+                border: "1px solid #ddd",
+                borderRadius: "5px",
+              }}
+            >
+              <input
+                type="checkbox"
+                checked={selectedRecipes.includes(recipe.id)}
+                onChange={() => handleCheckboxChange(recipe.id)}
+                style={{ marginRight: "10px" }}
+              />
+              <h3>
+                <Link
+                  to={`/recipe/${recipe.id}`}
+                  style={{ textDecoration: "none", color: "#007bff" }}
+                >
+                  {recipe.title}
+                </Link>
+              </h3>
+              <p>{recipe.description}</p>
+            </div>
+          ))}
       </div>
+
+      {selectedRecipes.length > 0 && (
+        <div style={{ marginTop: "20px" }}>
+          <button
+            onClick={handleShare}
+            style={{
+              padding: "10px 20px",
+              backgroundColor: "#007bff",
+              color: "#fff",
+              border: "none",
+              borderRadius: "5px",
+              cursor: "pointer",
+            }}
+          >
+            Share Selected Recipes
+          </button>
+        </div>
+      )}
     </div>
   );
 };

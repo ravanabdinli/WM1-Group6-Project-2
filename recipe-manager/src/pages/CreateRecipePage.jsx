@@ -3,7 +3,7 @@ import CreateRecipe from "../components/CreateRecipe";
 
 const CreateRecipePage = () => {
   return (
-    <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
+    <div>
       <h1>Create a New Recipe</h1>
       <CreateRecipe />
     </div>
