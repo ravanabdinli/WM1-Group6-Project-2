@@ -1,121 +1,163 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Link } from "react-router-dom";
+import RecipesList from "../components/RecipesList";
 
 const HomePage = () => {
   const [recipes, setRecipes] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
-  const [selectedRecipes, setSelectedRecipes] = useState([]);
+  const [filterDifficulty, setFilterDifficulty] = useState("");
+  const [filterTags, setFilterTags] = useState("");
+  const [sortOption, setSortOption] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const RECIPES_PER_PAGE = 10;
 
   useEffect(() => {
-    // Fetch recipes from the backend
-    axios.get("http://localhost:3001/recipes").then((response) => {
-      setRecipes(response.data);
-    });
+    // Fetch recipes from server
+    axios
+      .get("http://localhost:3001/recipes")
+      .then((response) => {
+        setRecipes(response.data);
+      })
+      .catch((err) => {
+        console.error("Failed to fetch recipes:", err);
+      });
   }, []);
 
+  // Search function
   const handleSearch = (e) => {
     setSearchQuery(e.target.value.toLowerCase());
+    setCurrentPage(1); // Reset to first page
   };
 
-  const handleCheckboxChange = (id) => {
-    setSelectedRecipes((prevSelected) => {
-      if (prevSelected.includes(id)) {
-        return prevSelected.filter((recipeId) => recipeId !== id);
-      } else {
-        return [...prevSelected, id];
+  // Filter by difficulty
+  const handleFilterDifficulty = (e) => {
+    setFilterDifficulty(e.target.value);
+    setCurrentPage(1); // Reset to first page
+  };
+
+  // Filter by tags
+  const handleFilterTags = (e) => {
+    setFilterTags(e.target.value.toLowerCase());
+    setCurrentPage(1); // Reset to first page
+  };
+
+  // Sort function
+  const handleSort = (e) => {
+    setSortOption(e.target.value);
+    setCurrentPage(1); // Reset to first page
+  };
+
+  // Apply Search, Filter, and Sort
+  const filteredRecipes = recipes
+    .filter((recipe) => {
+      const matchesSearch =
+        recipe.title.toLowerCase().includes(searchQuery) ||
+        recipe.description.toLowerCase().includes(searchQuery) ||
+        recipe.ingredients.some((ingredient) =>
+          ingredient.toLowerCase().includes(searchQuery)
+        );
+
+      const matchesDifficulty =
+        !filterDifficulty || recipe.difficulty === filterDifficulty;
+
+      const matchesTags =
+        !filterTags ||
+        recipe.tags.some((tag) => tag.toLowerCase().includes(filterTags));
+
+      return matchesSearch && matchesDifficulty && matchesTags;
+    })
+    .sort((a, b) => {
+      if (sortOption === "title") {
+        return a.title.localeCompare(b.title);
+      } else if (sortOption === "createTime") {
+        return new Date(a.createdAt) - new Date(b.createdAt);
+      } else if (sortOption === "updateTime") {
+        return new Date(b.lastUpdated) - new Date(a.lastUpdated);
+      } else if (sortOption === "difficulty") {
+        const difficultyLevels = { Easy: 1, Medium: 2, Hard: 3 };
+        return difficultyLevels[a.difficulty] - difficultyLevels[b.difficulty];
       }
+      return 0;
     });
+
+  // Pagination logic
+  const totalRecipes = filteredRecipes.length;
+  const totalPages = Math.ceil(totalRecipes / RECIPES_PER_PAGE);
+
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
   };
 
-  const handleShare = () => {
-    const selectedRecipeData = recipes.filter((recipe) =>
-      selectedRecipes.includes(recipe.id)
-    );
-    const jsonData = JSON.stringify(selectedRecipeData, null, 2);
-
-    // Open the user's default email client with the JSON data
-    const emailBody = encodeURIComponent(`Here are the recipes in JSON format:\n\n${jsonData}`);
-    window.location.href = `mailto:?subject=Shared Recipes&body=${emailBody}`;
-  };
+  const paginatedRecipes = filteredRecipes.slice(
+    (currentPage - 1) * RECIPES_PER_PAGE,
+    currentPage * RECIPES_PER_PAGE
+  );
 
   return (
-    <div
-      style={{
-        padding: "20px",
-        fontFamily: "Arial, sans-serif",
-        maxWidth: "800px",
-        margin: "auto",
-      }}
-    >
-      <h1>Welcome to Recipe Manager!</h1>
+    <div>
+      <h1>Welcome to Recipe Manager</h1>
       <p>Your go-to app for managing recipes!</p>
 
-      <div style={{ marginBottom: "20px" }}>
-        <h3>Search Recipes</h3>
-        <input
-          type="text"
-          placeholder="Search by title, description, or ingredients..."
-          value={searchQuery}
-          onChange={handleSearch}
-          style={{ width: "100%", padding: "10px", marginBottom: "10px" }}
-        />
-      </div>
+      {/* Search Input */}
+      <input
+        type="text"
+        placeholder="Search recipes..."
+        value={searchQuery}
+        onChange={handleSearch}
+        style={{ marginRight: "10px" }}
+      />
 
-      <div>
-        <h2>All Recipes</h2>
-        {recipes
-          .filter(
-            (recipe) =>
-              recipe.title.toLowerCase().includes(searchQuery) ||
-              recipe.description.toLowerCase().includes(searchQuery)
-          )
-          .map((recipe) => (
-            <div
-              key={recipe.id}
-              style={{
-                padding: "10px",
-                marginBottom: "10px",
-                border: "1px solid #ddd",
-                borderRadius: "5px",
-              }}
-            >
-              <input
-                type="checkbox"
-                checked={selectedRecipes.includes(recipe.id)}
-                onChange={() => handleCheckboxChange(recipe.id)}
-                style={{ marginRight: "10px" }}
-              />
-              <h3>
-                <Link
-                  to={`/recipe/${recipe.id}`}
-                  style={{ textDecoration: "none", color: "#007bff" }}
-                >
-                  {recipe.title}
-                </Link>
-              </h3>
-              <p>{recipe.description}</p>
-            </div>
-          ))}
-      </div>
+      {/* Filter by Difficulty */}
+      <select
+        value={filterDifficulty}
+        onChange={handleFilterDifficulty}
+        style={{ marginRight: "10px" }}
+      >
+        <option value="">Filter by Difficulty</option>
+        <option value="Easy">Easy</option>
+        <option value="Medium">Medium</option>
+        <option value="Hard">Hard</option>
+      </select>
 
-      {selectedRecipes.length > 0 && (
-        <div style={{ marginTop: "20px" }}>
+      {/* Filter by Tags */}
+      <input
+        type="text"
+        placeholder="Filter by Tags"
+        value={filterTags}
+        onChange={handleFilterTags}
+        style={{ marginRight: "10px" }}
+      />
+
+      {/* Sort Options */}
+      <select value={sortOption} onChange={handleSort}>
+        <option value="">Sort by</option>
+        <option value="title">Title</option>
+        <option value="createTime">Create Time</option>
+        <option value="updateTime">Last Updated</option>
+        <option value="difficulty">Difficulty</option>
+      </select>
+
+      {/* Recipe List */}
+      <RecipesList recipes={paginatedRecipes} />
+
+      {/* Pagination */}
+      <div style={{ marginTop: "20px" }}>
+        {Array.from({ length: totalPages }, (_, index) => (
           <button
-            onClick={handleShare}
+            key={index + 1}
+            onClick={() => handlePageChange(index + 1)}
             style={{
-              padding: "10px 20px",
-              backgroundColor: "#007bff",
-              color: "#fff",
-              border: "none",
-              borderRadius: "5px",
+              margin: "0 5px",
+              padding: "5px 10px",
+              backgroundColor: index + 1 === currentPage ? "gray" : "white",
               cursor: "pointer",
             }}
           >
-            Share Selected Recipes
+            {index + 1}
           </button>
-        </div>
-      )}
+        ))}
+      </div>
     </div>
   );
 };

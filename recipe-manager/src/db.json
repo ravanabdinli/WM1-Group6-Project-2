@@ -2,133 +2,3558 @@
   "recipes": [
     {
       "id": "1",
-      "title": "Spaghetti Bolognese",
-      "description": "A classic Italian pasta dish with a rich meat sauce.",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
       "ingredients": [
-        "spaghetti",
-        "ground beef",
-        "tomato sauce"
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
       ],
       "steps": [
-        "Boil water",
-        "Cook pasta",
-        "Prepare sauce",
-        "Serve"
+        "In a pot. whisk yogurt with water and egg until smooth.. Add washed rice and bring to a boil. stirring constantly to prevent curdling.. Reduce heat and cook until rice is tender. about 20 minutes.. Finely chop spinach. cilantro. and dill. Add them to the soup.. Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled.."
       ],
       "tags": [
-        "Dinner",
-        "Italian",
-        "Quick Meal"
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
       ],
-      "difficulty": "Easy",
-      "lastUpdated": "2024-12-22T18:36:09.548Z"
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T22:44:13.278Z"
     },
     {
       "id": "2",
-      "title": "Chicken Curry",
-      "description": "A flavorful curry with tender chicken pieces.",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
       "ingredients": [
-        "chicken",
-        "curry powder",
-        "coconut milk",
-        "onions",
-        "garlic"
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
       ],
       "steps": [
-        "Cook chicken",
-        "Prepare curry sauce",
-        "Combine and simmer"
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.. For the filling. mix minced meat. finely chopped onion. cumin. salt. and pepper.. Divide dough into small balls. roll them into thin circles. and place filling on one side.. Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.. Brush with melted butter and garnish with chopped cilantro..newfe"
       ],
       "tags": [
-        "Dinner",
-        "Indian",
-        "Spicy"
-      ],
-      "difficulty": "Medium",
-      "lastUpdated": "2024-12-22T18:32:33.604Z"
-    },
-    {
-      "id": "e90b",
-      "title": "QOVURMA",
-      "description": "ET,ET,ET,",
-      "ingredients": [
-        "ET",
-        "ET",
-        "ET"
-      ],
-      "steps": [
-        "BISIR",
-        "QAYNAT",
-        "VURBEDENE"
-      ],
-      "tags": [
-        ""
-      ],
-      "difficulty": "Hard",
-      "lastUpdated": "2024-12-20T21:32:53.190Z"
-    },
-    {
-      "id": "8171",
-      "title": "SALAM",
-      "description": "MOLODYKİA",
-      "ingredients": [
-        "ASKJHSKD"
-      ],
-      "steps": [
-        "SDJFKJSDH"
-      ],
-      "tags": [
-        "JSDHFKJSDHF"
-      ],
-      "difficulty": "Hard",
-      "lastUpdated": "2024-12-20T21:44:04.669Z"
-    },
-    {
-      "id": "7cbb",
-      "title": "123",
-      "description": "23",
-      "ingredients": [
-        "234.2.23.4",
-        "34",
-        "234",
-        "23",
-        "423",
-        "4"
-      ],
-      "steps": [
-        "23",
-        "2",
-        "34",
-        "23",
-        "423",
-        "`"
-      ],
-      "tags": [
-        "3.43..3",
-        "4",
-        "234",
-        "23",
-        "423",
-        ""
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
       ],
       "difficulty": "Easy",
-      "lastUpdated": "2024-12-27T23:02:18.133Z"
+      "lastUpdated": "2024-12-30T21:32:12.964Z"
     },
     {
-      "id": "265f",
-      "title": "me",
-      "description": "mmewme",
+      "id": "3",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
       "ingredients": [
-        "werjwlerwe`weorh`e`"
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
       ],
       "steps": [
-        "weirowu`"
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
       ],
       "tags": [
-        "roeirutoierut"
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
       ],
-      "difficulty": "Hard",
-      "lastUpdated": "2024-12-28T23:52:02.128Z"
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "4",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.. Layer them alternately on a plate. placing a basil leaf between each slice.. Drizzle olive oil and balsamic vinegar over the salad.. Season with salt and pepper. Serve immediately.Thisis. New.Featurel."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T21:37:21.017Z"
+    },
+    {
+      "id": "5",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "6",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.. For the filling. mix minced meat. finely chopped onion. cumin. salt. and pepper.. Divide dough into small balls. roll them into thin circles. and place filling on one side.. Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.. Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T22:38:16.673Z"
+    },
+    {
+      "id": "7",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "8",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "9",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "10",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "11",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "12",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "13",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "14",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "15",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "16",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "17",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "18",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "19",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "20",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "21",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "22",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "23",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "24",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "25",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "26",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "27",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "28",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "29",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "30",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "31",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "32",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "33",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "34",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "35",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "36",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "37",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "38",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "39",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "40",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "41",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "42",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "43",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "44",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "45",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "46",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "47",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "48",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "49",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "50",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "51",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "52",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "53",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "54",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "55",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "56",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "57",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "58",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "59",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "60",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "61",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "62",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "63",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "64",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "65",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "66",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "67",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "68",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "69",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "70",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "71",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "72",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "73",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "74",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "75",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "76",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "77",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "78",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "79",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "80",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "81",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "82",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "83",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "84",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "85",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "86",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "87",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "88",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "89",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "90",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "91",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "92",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "93",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "94",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "95",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "96",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "97",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "98",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "99",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "100",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "101",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "102",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "103",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "104",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "105",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "106",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "107",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "108",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "109",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "110",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "111",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "112",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "113",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "114",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "115",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "116",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "117",
+      "title": "Dovga",
+      "description": "A refreshing yogurt-based soup with herbs and rice.",
+      "ingredients": [
+        "4 cups plain yogurt",
+        "1/2 cup rice",
+        "2 cups water",
+        "1 cup spinach",
+        "1/2 cup cilantro",
+        "1/2 cup dill",
+        "1 egg",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "In a pot, whisk yogurt with water and egg until smooth.",
+        "Add washed rice and bring to a boil, stirring constantly to prevent curdling.",
+        "Reduce heat and cook until rice is tender, about 20 minutes.",
+        "Finely chop spinach, cilantro, and dill. Add them to the soup.",
+        "Season with salt and pepper. Simmer for an additional 10 minutes and serve warm or chilled."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "118",
+      "title": "Kutabs",
+      "description": "Thin dough pockets stuffed with meat or herbs.",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup water",
+        "300g minced lamb or beef",
+        "1 onion",
+        "1 tsp cumin",
+        "Salt to taste",
+        "Pepper to taste",
+        "2 tbsp butter",
+        "1/4 cup fresh cilantro"
+      ],
+      "steps": [
+        "Mix flour and water to form a soft dough. Let it rest for 30 minutes.",
+        "For the filling, mix minced meat, finely chopped onion, cumin, salt, and pepper.",
+        "Divide dough into small balls, roll them into thin circles, and place filling on one side.",
+        "Fold over the dough and seal the edges. Cook on a dry skillet until browned on both sides.",
+        "Brush with melted butter and garnish with chopped cilantro."
+      ],
+      "tags": [
+        "Azerbaijani",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "119",
+      "title": "Tiramisu",
+      "description": "A classic no-bake dessert with coffee-soaked ladyfingers and mascarpone cream.",
+      "ingredients": [
+        "200g ladyfingers",
+        "3 eggs",
+        "1 cup sugar",
+        "250g mascarpone cheese",
+        "1 cup espresso",
+        "2 tbsp cocoa powder",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Separate eggs into yolks and whites. Beat yolks with sugar until creamy.",
+        "Mix in mascarpone cheese and vanilla extract until smooth.",
+        "Whip egg whites to stiff peaks and gently fold into the mascarpone mixture.",
+        "Dip ladyfingers in espresso and layer them in a dish. Spread a layer of mascarpone mixture on top.",
+        "Repeat layers and dust with cocoa powder. Refrigerate for at least 4 hours before serving."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Medium",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
+    },
+    {
+      "id": "120",
+      "title": "Caprese Salad",
+      "description": "A simple salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "4 large tomatoes",
+        "200g fresh mozzarella",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tbsp balsamic vinegar",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella into even slices.",
+        "Layer them alternately on a plate, placing a basil leaf between each slice.",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with salt and pepper. Serve immediately."
+      ],
+      "tags": [
+        "Italian",
+        "Main Dish",
+        "Authentic",
+        "Comfort Food"
+      ],
+      "difficulty": "Easy",
+      "lastUpdated": "2024-12-30T20:55:53.659715"
     }
   ]
 }
