@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import RecipePage from "./pages/RecipePage";
 import CreateRecipePage from "./pages/CreateRecipePage";
+import ContactPage from "./pages/ContactPage"; // Import ContactPage
 import NavBar from "./components/NavBar";
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
             <Route path="/" element={<HomePage />} />
             <Route path="/recipe/:id" element={<RecipePage />} />
             <Route path="/create" element={<CreateRecipePage />} />
+            <Route path="/contact" element={<ContactPage />} /> {/* Add Contact Route */}
           </Routes>
         </div>
       </div>

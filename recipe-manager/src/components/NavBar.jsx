@@ -25,9 +25,14 @@ const NavBar = () => {
               Home
             </Link>
           </li>
-          <li>
+          <li style={{ marginBottom: "15px" }}>
             <Link to="/create" style={{ textDecoration: "none", color: "#fff" }}>
               Create Recipe
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" style={{ textDecoration: "none", color: "#fff" }}>
+              Contact Me
             </Link>
           </li>
         </ul>
