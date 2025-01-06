@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "./ContactPage.css";
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -35,47 +36,45 @@ const ContactPage = () => {
   };
 
   return (
-    <div>
-      <h1>Contact Me</h1>
-      <form onSubmit={handleSubmit}>
-        <div style={{ marginBottom: "15px" }}>
-          <label>Subject:</label>
+    <div className="contact-container">
+      <h1>📧Contact Us📧</h1>
+      <form onSubmit={handleSubmit} className="contact-form">
+        <div className="form-group">
+          <label htmlFor="subject">Subject:</label>
           <input
             type="text"
+            id="subject"
             name="subject"
             value={formData.subject}
             onChange={handleInputChange}
             required
-            style={{ marginLeft: "10px", width: "300px" }}
           />
         </div>
-        <div style={{ marginBottom: "15px" }}>
-          <label>Email:</label>
+        <div className="form-group">
+          <label htmlFor="email">Email:</label>
           <input
             type="email"
+            id="email"
             name="email"
             value={formData.email}
             onChange={handleInputChange}
             required
-            style={{ marginLeft: "10px", width: "300px" }}
           />
         </div>
-        <div style={{ marginBottom: "15px" }}>
-          <label>Message:</label>
+        <div className="form-group">
+          <label htmlFor="message">Message:</label>
           <textarea
+            id="message"
             name="message"
             value={formData.message}
             onChange={handleInputChange}
             required
-            style={{ marginLeft: "10px", width: "300px", height: "100px" }}
           ></textarea>
         </div>
-        <button type="submit" style={{ marginRight: "10px" }}>
-          Send
-        </button>
+        <button type="submit">Send <br />📩</button>
       </form>
-      {successMessage && <p style={{ color: "green" }}>{successMessage}</p>}
-      {errorMessage && <p style={{ color: "red" }}>{errorMessage}</p>}
+      {successMessage && <p className="success-message">{successMessage}</p>}
+      {errorMessage && <p className="error-message">{errorMessage}</p>}
     </div>
   );
 };

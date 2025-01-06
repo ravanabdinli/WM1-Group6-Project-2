@@ -1,0 +1,97 @@
+.edit-recipe-container {
+	padding: 40px;
+	max-width: 800px;
+	margin: 100px auto; /* Center the form on the page */
+	background-color: #fff; /* White background */
+	border-radius: 10px; /* Rounded corners */
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+	font-family: "Bebas Neue", serif;
+}
+
+.edit-recipe-container h1 {
+	font-size: 2.5rem;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #000; /* Black heading */
+}
+
+.edit-recipe-form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.edit-recipe-form label {
+	font-size: 1.2rem;
+	color: #333; /* Dark gray labels */
+}
+
+.edit-recipe-input,
+.edit-recipe-textarea,
+.edit-recipe-select {
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	border: 1px solid #ddd; /* Light gray border */
+	border-radius: 5px; /* Rounded corners */
+	font-family: "Bebas Neue", serif;
+	background-color: #f9f9f9; /* Light gray input background */
+	color: #000;
+	resize: vertical; /* Allow flexible height but not exceed the container */
+}
+
+.edit-recipe-input:focus,
+.edit-recipe-textarea:focus,
+.edit-recipe-select:focus {
+	outline: none; /* Remove focus outline */
+	border: 1px solid #000; /* Black border on focus */
+	background-color: #fff; /* White background on focus */
+}
+
+.edit-recipe-buttons {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.edit-recipe-buttons button {
+	flex: 1;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-family: 'Bebas Neue', serif; /* Consistent font */
+	cursor: pointer;
+	transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.edit-recipe-buttons .save-button {
+	background-color: #000; /* Black button */
+	color: #ffffff; /* White text */
+	font-weight: bolder;
+}
+
+.edit-recipe-buttons .save-button:hover {
+	/* background-color: #24242430; Darker black on hover */
+	transform: scale(1.05); /* Slight enlarge effect */
+	background-image: url('../assets/hovernavbar.jpg'); /* Usual background image */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.8; /* Set background image opacity */
+	color: #000;
+	font-weight: 900;
+}
+
+.edit-recipe-buttons .cancel-button {
+	background-color: #ccc; /* Light gray button */
+	color: #000000; /* Dark gray text */
+}
+
+.edit-recipe-buttons .cancel-button:hover {
+	background-color: #bbb; /* Slightly darker gray on hover */
+	transform: scale(1.05); /* Slight enlarge effect */
+}
+

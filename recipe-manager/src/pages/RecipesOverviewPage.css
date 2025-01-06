@@ -1,0 +1,234 @@
+.recipes-overview {
+	padding: 20px;
+	max-width: 1200px;
+	margin: 100px auto 0;
+	text-align: center;
+	font-family: 'Babue Sans', sans-serif; /* Consistent font */
+  }
+  
+  .recipes-header {
+	font-family: "Bebas Neue", serif;
+	color: #000; /* make entire block black */
+  }
+  .recipes-header h1 {
+	font-size: 5.5rem;
+	margin-bottom: 10px;
+  }
+  .recipes-header p{
+
+	font-size: 1.5rem;
+  }
+  
+  .filters-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+	margin-bottom: 20px;
+  }
+  
+  .filter-input,
+  .filter-select {
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	font-size: 14px;
+	width: 200px;
+  }
+  
+  .pagination-container {
+	margin-top: 20px;
+	font-family: "Bebas Neue", serif;
+  }
+  
+  .pagination-button {
+	margin: 0 5px;
+	padding: 8px 15px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: "Bebas Neue", serif;
+	font-size: 1rem; /* Adjust font size if needed */
+	font-weight: bold; /* Bold font weight for all states */
+	background-color: #000; /* Black background for default buttons */
+	color: #fff; /* White text for default buttons */
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .pagination-button:hover {
+	transform: scale(1.1); /* Slightly enlarge the button on hover */
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a hover effect */
+	background-color: #333; /* Slightly lighter black on hover */
+	font-weight: bold; /* Ensure bold font weight on hover */
+	color: #fff; /* Keep text white on hover */
+  }
+  
+  .pagination-button.active {
+	background-image: url('../assets/hovernavbar.jpg'); /* Background image for active button */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: transparent; /* Ensure only the image is visible */
+	color: black; /* Text color changes to black to match the theme */
+	font-family: 'Babue Sans', serif; /* Use Babue Sans for pagination numbers */
+	font-weight: bold; /* Bold font weight for active button */
+	border: 1px solid transparent; /* Optional: Remove border for active buttons */
+  }
+  .share-button {
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	padding: 10px 20px;
+	background-color: #000000;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 1rem;
+	cursor: pointer;
+	z-index: 1000;
+	font-family: "Bebas Neue" , serif ;
+  }
+  
+  .share-button:hover {
+	background-color:  blue;
+	transition: transform 0.5s ease, background-color 0.5s ease;
+
+  }
+/***************************************
+ Overall Modal & Content
+****************************************/
+.modal-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.65);
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	z-index: 9999; 
+  }
+  
+  .modal-content {
+	background: #f9f9f9; /* Light gray-ish background, like your other cards */
+	border-radius: 8px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow, like your contact cards */
+	font-family: 'Bebas Neue', serif; 
+	font-size: 1rem;
+	color: #333;
+	font-weight: lighter; /* Matches your contact form “light” weight */
+	padding: 2rem;
+	width: 400px;
+	max-width: 90%;
+	text-align: center; /* Center text like a card */
+  }
+  
+  /* Centered, bigger heading */
+  .modal-content h2 {
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 20px;
+	color: #000;
+  }
+  
+  /* Subheadings for "Sender Info" & "Recipient Info" */
+  .modal-content h3 {
+	margin-top: 1rem;
+	margin-bottom: 10px;
+	color: #000;
+	font-size: 1.2rem;
+	font-weight: normal;
+  }
+  
+  /***************************************
+   Modal Inputs
+  ****************************************/
+  .modal-content input {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	font-size: 1rem;
+	font-family: 'Bebas Neue', serif; 
+  }
+  
+  /* Optional focus styling */
+  .modal-content input:focus {
+	outline: none;
+	border-color: #000; /* Black border on focus */
+	background-color: #fff; 
+  }
+  
+  /***************************************
+   Modal Buttons
+  ****************************************/
+  .modal-buttons {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+	margin-top: 1rem;
+  }
+  
+  /* Shared button style */
+  .modal-buttons button {
+	flex: 1;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	font-family: 'Bebas Neue', serif;
+	font-weight: lighter;
+	cursor: pointer;
+	transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* "Send Email" button */
+  .modal-buttons .send-button {
+	background-color: #000;   /* Black */
+	color: #fff;              /* White text */
+  }
+  
+  /* Hover effect for send button */
+  .modal-buttons .send-button:hover {
+	background-color: #1ce712;; /* Slightly lighter black on hover */
+	transform: scale(1.05);
+  }
+  
+  /* "Cancel" button */
+  .modal-buttons .cancel-button {
+	background-color: #ccc;   /* Light gray */
+	color: #000;              /* Black text */
+  }
+  
+  /* Hover effect for cancel button */
+  .modal-buttons .cancel-button:hover {
+	background-color: #bbb;
+	transform: scale(1.05);
+  }
+  
+  /* 1) Give each card container a transition so when its position changes,
+   it moves more smoothly in the grid. */
+.recipe-card-link {
+	transition: transform 0.3s ease, opacity 0.3s ease;
+	/* (Optional) give it a small “hover” animation even when not dragging
+	&:hover {
+	  transform: scale(1.02);
+	} */
+  }
+  
+  /* 2) While dragging, we can scale up slightly and add a box-shadow */
+  .recipe-card-link.dragging {
+	opacity: 0.9; /* slightly fade or keep at 1.0 if you prefer */
+	z-index: 999; /* ensure it appears on top while dragging */
+	transform: scale(1.05);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+	transition: transform 0.8s ease, box-shadow 0.8s ease, opacity 0.8s ease;
+  }
+  
+  /* 3) Also add a gentle transition to the recipe-card itself, if you want */
+  .recipe-card {
+	transition: transform 0.3s ease;
+  }
+  

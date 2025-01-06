@@ -1,0 +1,104 @@
+/* NavBar.css */
+.navbar-container {
+	width: 100%;
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	height: 135px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	/* Distribute space evenly */
+	align-items: center;
+	padding: 0 15px;
+	/* Slightly reduced padding for tighter alignment */
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 100%;
+	/* Full utilization of navbar height */
+}
+
+.navbar-left,
+.navbar-right {
+	display: flex;
+	gap: 150px;
+	/* Keep the current spacing between components */
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #333;
+	font-family: "Bebas Neue", serif;
+	/* Use Bebas Neue font */
+	font-size: 1.1em;
+	/* Slightly reduced font size for balance */
+	transition: background-image 0.3s ease, transform 0.4s ease;
+	position: relative;
+	/* Required for hover background effect */
+	padding: 10px 15px;	
+	/* Add padding for box-like appearance */
+	border-radius: 55px;
+	/* Rounded corners for better aesthetics */
+}
+
+.nav-link:hover {
+	font-weight: 700;
+	transform: scale(1.2);
+	/* Optional: Slightly enlarge logo on hover */
+
+}
+
+.nav-link:hover::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 55px;
+	/* Match the border-radius of the nav-link */
+	background-image: url('../assets/hovernavbar.jpg');
+	/* Replace with the correct path */
+	background-size: cover;
+	background-position: center;
+	opacity: 0.4;
+	/* Adjust opacity for subtle shadow effect */
+	z-index: -1;
+	/* Place it behind the text */
+	transition: opacity 0.1s ease;
+	/* Smooth transition */
+}
+
+
+.navbar-center {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 15px;
+	/* Keep the logo centrally spaced */
+}
+
+.navbar-logo {
+	height: 170px;
+	/* Reduced logo size for a smaller navbar */
+	cursor: pointer;
+	position: relative;
+	/* Required for hover background effect */
+	border-radius: 55px;
+	/* Match rounded corner of the nav-link */
+	padding: 10px;
+	/* Optional: Padding around the logo */
+	transition: background-image 0.3s ease, transform 0.4s ease;
+}
+
+
+.navbar-logo:hover {
+	transform: scale(1.3);
+	/* Optional: Slightly enlarge logo on hover */
+}

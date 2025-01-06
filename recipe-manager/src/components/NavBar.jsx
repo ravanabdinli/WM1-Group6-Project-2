@@ -1,42 +1,67 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./NavBar.css";
 
 const NavBar = () => {
   return (
-    <div
-      style={{
-        position: "fixed",
-        top: 0,
-        left: 0,
-        width: "200px",
-        height: "100vh",
-        background: "#333",
-        color: "#fff",
-        boxShadow: "2px 0 5px rgba(0, 0, 0, 0.2)",
-        padding: "20px",
-        boxSizing: "border-box",
-      }}
-    >
-      <h2>Recipe Manager</h2>
-      <nav>
-        <ul style={{ listStyleType: "none", padding: 0, margin: 0 }}>
-          <li style={{ marginBottom: "15px" }}>
-            <Link to="/" style={{ textDecoration: "none", color: "#fff" }}>
-              Home
-            </Link>
-          </li>
-          <li style={{ marginBottom: "15px" }}>
-            <Link to="/create" style={{ textDecoration: "none", color: "#fff" }}>
-              Create Recipe
-            </Link>
-          </li>
-          <li>
-            <Link to="/contact" style={{ textDecoration: "none", color: "#fff" }}>
-              Contact Me
-            </Link>
-          </li>
-        </ul>
-      </nav>
+
+
+    <div className="navbar-container">
+      <div className="navbar">
+        {/* Left Links */}
+        <div className="navbar-left">
+          <Link to="/recipes" className="nav-link"
+            onClick={() => {
+              // Scroll user to top
+              window.location.href = "/recipes";
+            }}>
+            All Recipes
+          </Link>
+          <Link to="/create" className="nav-link"
+            onClick={() => {
+              // Scroll user to top
+              window.location.href = "/create";
+            }}
+          >
+            Create Recipe
+          </Link>
+        </div>
+
+        {/* Logo */}
+        <div className="navbar-center">
+          <Link to="/" onClick={() => {
+            // Scroll user to top
+            window.location.href = "/";
+          }}>
+            <img
+              src="/assets/logo.png"
+              alt="RaSel Cooks Logo"
+              className="navbar-logo"
+            />
+          </Link>
+        </div>
+
+        {/* Right Links */}
+        <div className="navbar-right" >
+          <Link to="/contact" className="nav-link" onClick={() => {
+            // Scroll user to top
+            window.location.href = "/contact";
+          }}>
+            Contact Us
+          </Link>
+          <Link
+            to="/"
+            state={{ scrollTo: "projects" }}
+            className="nav-link"
+          >
+            Previous Project
+          </Link>
+
+
+
+
+        </div>
+      </div>
     </div>
   );
 };

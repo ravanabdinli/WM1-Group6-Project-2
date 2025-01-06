@@ -1,0 +1,188 @@
+  
+
+.recipe-container {
+	padding: 20px;
+	font-family: "Bebas Neue", serif;
+	font-weight: lighter;
+	max-width: 800px;
+	margin: 100px auto; /* Prevent navbar overlap */
+	background: #f9f9f9;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	position: relative;
+  }
+  
+  .recipe-title {
+	text-align: center;
+	margin-top: 15px;
+	font-size: 2rem;
+  }
+  
+  .recipe-image {
+	width: 100%;
+	height: auto;
+	max-height: 400px;
+	object-fit: cover;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .recipe-title-input,
+  .recipe-input,
+  .recipe-textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	font-size: 1rem;
+  }
+  
+  .recipe-select {
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+  }
+  
+  .button-save,
+  .button-cancel,
+  .button-edit,
+  .button-delete,
+  .button-back {
+	padding: 10px 20px;
+	font-size: 1rem;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 5px;
+  }
+  
+  .button-save {
+	background-color: #4caf50;
+	color: white;
+  }
+  
+  .button-cancel {
+	background-color: #ccc;
+	color: black;
+  }
+  
+  .button-edit {
+	background-color: #1ce712;
+	font-family: "Bebas Neue", serif;
+	font-size: 1rem; /* Font size */
+	color: white;
+	font-weight: bolder;
+	border-bottom-left-radius: 10px ; /* optional for a pill look */
+	transition: transform 0.1s ease-in-out, background-color 0.1s ease-in-out;
+
+  }
+  .button-edit:hover{
+	transform: scale(0.95); /* Slight zoom effect on hover */
+	filter: brightness(0.9);
+
+  }
+
+
+  .button-delete {
+	background-color: #f11616cc;
+	font-family: "Bebas Neue", serif;
+	font-size: 1rem; /* Font size */
+	color: white;
+	font-weight: bolder;
+	transition: transform 0.1s ease-in-out, background-color 0.1s ease-in-out;
+	border-bottom-left-radius: 10px ; /* optional for a pill look */
+
+  }
+  .button-delete:hover{
+
+	transform: scale(0.95); /* Slight zoom effect on hover */
+	filter: brightness(0.9);
+
+  }
+
+
+  .button-back {
+	position: fixed; /* Make it fixed to stay visible on scroll */
+	top: 50%; /* Center vertically on the page */
+	left: 200px; /* Adjust the distance from the left edge */
+	transform: translateY(-50%); /* Center align */
+	padding: 10px 20px; /* Adjust padding for better appearance */
+	font-family: "Bebas Neue", serif;
+	font-size: 1rem; /* Font size */
+	font-weight: lighter;
+	background-color: #000000; /* Bright blue for visibility */
+	color: white; /* Text color */
+	border: none; /* Remove border */
+	border-radius: 5px; /* Rounded corners */
+	cursor: pointer; /* Change cursor on hover */
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+	z-index: 1000; /* Ensure it stays on top of other elements */
+	transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+  .button-back:hover {
+	background-color: #2e3134; /* Darker blue on hover */
+	transform: scale(0.95); /* Slight zoom effect on hover */
+  }
+  
+  
+  .recipe-card-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+  }
+  
+  .recipe-card-footer .edit-button {
+	padding: 10px 20px;
+	font-size: 1rem;
+	font-weight: bold;
+	border-radius: 5px;
+	background-color: #15ff00; /* Green */
+	color: white;
+	cursor: pointer;
+	border: none;
+	transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  }
+  
+  .recipe-card-footer .edit-button:hover {
+	transform: scale(1.05);
+  }
+  
+  .recipe-card-footer .delete-button {
+	padding: 10px 20px;
+	font-size: 1rem;
+	font-weight: bold;
+	border-radius: 5px;
+	background-color: #ff2c2c;
+	color: white;
+	cursor: pointer;
+	border: none;
+	transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  }
+  
+  .recipe-card-footer .delete-button:hover {
+	filter: brightness(0.7);
+	transform: scale(1.05);
+  }
+  
+  .recipe-card-footer .go-back-button {
+	padding: 10px 20px;
+	font-size: 1rem;
+	font-weight: bold;
+	border-radius: 5px;
+	background-color: #2196f3; /* Blue */
+	color: white;
+	cursor: pointer;
+	border: none;
+	transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  }
+  
+  .recipe-card-footer .go-back-button:hover {
+	background-color: #1976d2;
+	transform: scale(1.05);
+  }
+   

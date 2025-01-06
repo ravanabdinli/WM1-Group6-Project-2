@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
+import "./RecipePage.css"; 
 
 const RecipePage = () => {
   const { id } = useParams();
@@ -9,9 +10,14 @@ const RecipePage = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get(`http://localhost:3001/recipes/${id}`).then((response) => {
-      setRecipe(response.data);
-    });
+    axios.get(`http://localhost:3001/recipes/${id}`)
+      .then((response) => {
+        setRecipe(response.data);
+      })
+      .catch((error) => {
+        console.error("Error fetching recipe:", error);
+        alert("Recipe not found. Please try again.");
+      });
   }, [id]);
 
   const handleInputChange = (e) => {
@@ -20,7 +26,7 @@ const RecipePage = () => {
   };
 
   const handleArrayInputChange = (e, field) => {
-    const value = e.target.value.split(",").map((item) => item.trim());
+    const value = e.target.value.split("\n").map((item) => item.trim());
     setRecipe((prevRecipe) => ({ ...prevRecipe, [field]: value }));
   };
 
@@ -30,41 +36,42 @@ const RecipePage = () => {
       lastUpdated: new Date().toISOString(),
     };
 
-    axios.put(`http://localhost:3001/recipes/${id}`, updatedRecipe).then((response) => {
-      setRecipe(response.data);
-      setIsEditing(false);
-    });
+    axios
+      .put(`http://localhost:3001/recipes/${id}`, updatedRecipe)
+      .then((response) => {
+        setRecipe(response.data);
+        setIsEditing(false);
+      });
   };
 
   const handleDelete = () => {
-    axios.delete(`http://localhost:3001/recipes/${id}`).then(() => {
-      navigate("/");
-    });
+    axios
+      .delete(`http://localhost:3001/recipes/${id}`)
+      .then(() => {
+        navigate("/recipes"); // Redirect to overview after deletion
+      })
+      .catch((error) => {
+        console.error("Error deleting recipe:", error);
+        alert("An error occurred while deleting the recipe. Please try again.");
+      });
   };
 
   if (!recipe) return <p>Loading...</p>;
 
-  const formattedLastUpdated = new Date(recipe.lastUpdated).toLocaleString("en-US", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-    hour: "2-digit",
-    minute: "2-digit",
-    second: "2-digit",
-  });
+  const formattedLastUpdated = new Date(recipe.lastUpdated).toLocaleString(
+    "en-US",
+    {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+    }
+  );
 
   return (
-    <div
-      style={{
-        padding: "20px",
-        fontFamily: "Arial, sans-serif",
-        maxWidth: "800px",
-        margin: "auto",
-        background: "#f9f9f9",
-        borderRadius: "8px",
-        boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
-      }}
-    >
+    <div className="recipe-container">
       {isEditing ? (
         <div>
           <h1>
@@ -73,22 +80,32 @@ const RecipePage = () => {
               name="title"
               value={recipe.title}
               onChange={handleInputChange}
-              style={{ width: "100%", padding: "10px", fontSize: "1.5em" }}
+              className="recipe-title-input"
             />
           </h1>
           <textarea
             name="description"
             value={recipe.description}
             onChange={handleInputChange}
-            style={{ width: "100%", padding: "10px", marginBottom: "10px" }}
+            className="recipe-textarea"
           />
+          <p>
+            <strong>Image URL: </strong>
+            <input
+              type="text"
+              name="image"
+              value={recipe.image || ""}
+              onChange={handleInputChange}
+              className="recipe-input"
+            />
+          </p>
           <p>
             <strong>Difficulty Level: </strong>
             <select
               name="difficulty"
               value={recipe.difficulty}
               onChange={handleInputChange}
-              style={{ padding: "10px", margin: "10px 0" }}
+              className="recipe-select"
             >
               <option value="Easy">Easy</option>
               <option value="Medium">Medium</option>
@@ -98,17 +115,17 @@ const RecipePage = () => {
           <p>
             <strong>Ingredients: </strong>
             <textarea
-              value={recipe.ingredients.join(", ")}
+              value={recipe.ingredients.join("\n")}
               onChange={(e) => handleArrayInputChange(e, "ingredients")}
-              style={{ width: "100%", padding: "10px", marginBottom: "10px" }}
+              className="recipe-textarea"
             />
           </p>
           <p>
             <strong>Preparation Steps: </strong>
             <textarea
-              value={recipe.steps.join(". ")}
+              value={recipe.steps.join("\n")}
               onChange={(e) => handleArrayInputChange(e, "steps")}
-              style={{ width: "100%", padding: "10px", marginBottom: "10px" }}
+              className="recipe-textarea"
             />
           </p>
           <p>
@@ -116,22 +133,26 @@ const RecipePage = () => {
             <textarea
               value={recipe.tags.join(", ")}
               onChange={(e) => handleArrayInputChange(e, "tags")}
-              style={{ width: "100%", padding: "10px", marginBottom: "10px" }}
+              className="recipe-textarea"
             />
           </p>
-          <button onClick={handleSave} style={{ padding: "10px", marginRight: "10px" }}>
+          <button onClick={handleSave} className="button-save">
             Save
           </button>
-          <button
-            onClick={() => setIsEditing(false)}
-            style={{ padding: "10px", background: "#ccc" }}
-          >
+          <button onClick={() => setIsEditing(false)} className="button-cancel">
             Cancel
           </button>
         </div>
       ) : (
         <div>
-          <h1>{recipe.title}</h1>
+          {recipe.image && (
+            <img
+              src={recipe.image}
+              alt={recipe.title}
+              className="recipe-image"
+            />
+          )}
+          <h1 className="recipe-title">{recipe.title}</h1>
           <p>
             <strong>Description:</strong> {recipe.description}
           </p>
@@ -155,15 +176,23 @@ const RecipePage = () => {
           </ol>
           <h3>Tags</h3>
           <p>{recipe.tags.join(", ")}</p>
+          
           <button
-            onClick={() => setIsEditing(true)}
-            style={{ padding: "10px", marginRight: "10px" }}
+            onClick={() => navigate(-1)}
+            className="button-back"
+          >
+            ↩ <br />
+            Go Back 
+          </button>
+          <button
+            onClick={() => navigate(`/recipe/${id}/edit`, { state: { recipe } })}
+            className="button-edit"
           >
             Edit
           </button>
           <button
             onClick={handleDelete}
-            style={{ padding: "10px", background: "red", color: "#fff" }}
+            className="button-delete"
           >
             Delete
           </button>

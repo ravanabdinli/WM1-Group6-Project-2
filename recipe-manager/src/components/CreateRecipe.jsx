@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
 
-const CreateRecipe = () => {
+const CreateRecipe = ({ onRecipeAdded }) => {
   const [newRecipe, setNewRecipe] = useState({
     title: "",
     description: "",
@@ -10,8 +9,8 @@ const CreateRecipe = () => {
     steps: "",
     tags: "",
     difficulty: "Easy",
+    image: "", 
   });
-  const navigate = useNavigate();
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -21,7 +20,14 @@ const CreateRecipe = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Convert ingredients, steps, and tags into arrays
+    // Check if image field is empty and notify the user
+    if (!newRecipe.image.trim()) {
+      alert(
+        "The submitted recipe will be demonstrated without a picture. You may later change it by simply using the Edit Recipe feature of the app!"
+      );
+    }
+
+    // Format ingredients, steps, and tags
     const formattedRecipe = {
       ...newRecipe,
       ingredients: newRecipe.ingredients.split(",").map((item) => item.trim()),
@@ -30,16 +36,31 @@ const CreateRecipe = () => {
       lastUpdated: new Date().toISOString(),
     };
 
-    // POST new recipe to JSON Server
-    axios.post("http://localhost:3001/recipes", formattedRecipe).then((response) => {
-      console.log("Recipe added:", response.data);
-      navigate(`/recipe/${response.data.id}`); // Redirect to the new recipe page
-    });
+    // POST new recipe to JSON server
+    axios
+      .post("http://localhost:3001/recipes", formattedRecipe)
+      .then((response) => {
+        console.log("Recipe added:", response.data);
+        alert("Recipe has been successfully submitted!"); // Popup alert
+        onRecipeAdded(response.data);
+        setNewRecipe({
+          title: "",
+          description: "",
+          ingredients: "",
+          steps: "",
+          tags: "",
+          difficulty: "Easy",
+          image: "", // Reset image field
+        });
+      })
+      .catch((error) => {
+        console.error("Error adding recipe:", error);
+        alert("Failed to submit the recipe. Please try again."); // Error popup
+      });
   };
 
   return (
     <form onSubmit={handleSubmit} style={{ marginBottom: "20px" }}>
-      <h2>Create Recipe</h2>
       <input
         type="text"
         name="title"
@@ -58,14 +79,14 @@ const CreateRecipe = () => {
       <input
         type="text"
         name="ingredients"
-        placeholder="Ingredients (comma-separated)"
+        placeholder="Enter ingredients (comma-separated)"
         value={newRecipe.ingredients}
         onChange={handleInputChange}
         required
       />
       <textarea
         name="steps"
-        placeholder="Steps (separate by periods)"
+        placeholder="Enter Steps (one per line, end each step with a full stop)"
         value={newRecipe.steps}
         onChange={handleInputChange}
         required
@@ -82,6 +103,13 @@ const CreateRecipe = () => {
         <option value="Medium">Medium</option>
         <option value="Hard">Hard</option>
       </select>
+      <input
+        type="text"
+        name="image"
+        placeholder="Image URL"
+        value={newRecipe.image}
+        onChange={handleInputChange}
+      />
       <button type="submit">Add Recipe</button>
     </form>
   );

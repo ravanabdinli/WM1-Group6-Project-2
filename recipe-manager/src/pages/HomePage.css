@@ -1,0 +1,205 @@
+/* HomePage.css */
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.homepage-container {
+	margin: 0 auto;
+	/* Let the browser center it horizontally */
+	max-width: 1200px;
+	/* Constrain how wide it can get */
+	width: 100%;
+	/* Let it shrink on smaller screens */
+	padding: 120px 20px;
+	/* Keep your vertical spacing + give a bit horizontal padding */
+	color: #333;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+	font-family: "Bebas Neue", serif;
+
+	/* border: 2px dashed red; */
+
+	/* Remove overflow: hidden; unless you need it for a specific reason */
+}
+
+
+/* Welcome Section */
+.welcome-section  {
+	text-align: center;
+	margin: 0px 180px 0px 180px ;
+
+}
+.welcome-section b {
+
+	color: #333;
+}
+.welcome-section p,li{
+
+	color: #666;
+	
+}
+
+/* Featured Recipes Section */
+.featured-section {
+	margin-top: 30px;
+	width: 100%;
+}
+
+.featured-section h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.recipe-cards-container {
+	display: flex;
+	justify-content: center;
+	/* Center the cards horizontally */
+	gap: 20px;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	/* Restrict the maximum width for centering */
+	margin: 0 auto;
+	/* Center container */
+	/* border: 2px dashed blue; */
+
+}
+
+/* Recipe Card */
+.recipe-card {
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	width: 310px;
+	height: 330px;
+	background: #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	font-family: "Bebas Neue", serif;
+}
+
+.recipe-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.recipe-card-image {
+	width: 100%;
+	height: 155px;
+	object-fit: cover;
+	border-radius: 8px 8px 0 0;
+}
+
+.recipe-card-content {
+	padding: 10px 12px;
+}
+
+.recipe-card-content h3 {
+	margin: 0 0 10px;
+	font-size: 1.2em;
+}
+
+.recipe-card-content p {
+	font-size: 0.9em;
+	color: #666;
+	margin: 0 0 19px;
+	padding: 8px 12px;
+	/* Add padding to create the boxed effect */
+	text-align: left;
+	/* Justify the description text */
+	line-height: 1.3em;
+	height: 3em;
+	/* Restrict to two lines with ellipsis */
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+.view-recipe-link {
+	text-decoration: none;
+	color: #3288e4;
+	font-weight: lighter;
+	font-size: 0.9em;
+	transition: color 0.2s ease;
+	padding: 10px 0px;
+}
+
+.view-recipe-link:hover {
+	font-weight: bold;
+	color: rgb(9, 30, 255);
+}
+
+/* Projects Section */
+.projects-section {
+	text-align: center;
+	margin: 0px 180px 40px 180px; /* Match the alignment of the recipe cards */
+  }
+  
+  .projects-section h1 {
+	font-family: "Bebas Neue", serif;
+	font-size: 2rem; /* Adjust font size for heading */
+	color: #333;
+	margin-bottom: 20px;
+  }
+  
+  .projects-section ul {
+	padding-left: 0;
+	list-style-position: inside;
+	margin: 0px 0px 0px 5px;
+  }
+  
+  .projects-section li {
+	text-align: justify;
+	font-size: 1rem;
+	margin-bottom: 10px;
+	line-height: 1.5;
+	color: #666;
+  }
+  
+  .projects-section a {
+	color: #3288e4;
+	text-decoration: none;
+	font-weight: lighter;
+  }
+  
+  .projects-section a:hover {
+	font-weight: bold;
+	color: rgb(9, 30, 255);
+  }
+  
+
+
+/* Welcome Section Bullet Points */
+.App-highlights ul {
+	padding-left: 0;
+	/* Align bullets to the very left */
+	list-style-position: inside;
+	/* Place bullets inside the text area */
+	margin: 0px 0px 0px 5px;
+}
+
+.App-highlights li {
+	text-align: justify;
+	font-size: 1rem;
+	margin-bottom: 10px;
+	line-height: 1.5;
+}
+
+
+.App-highlights a{
+	color: #3288e4;
+	font-weight: lighter;
+
+}
+
+.App-highlights a:hover{
+	color: rgb(9, 30, 255);
+	font-weight: bold;
+
+}
