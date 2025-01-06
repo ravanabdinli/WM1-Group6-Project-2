@@ -45,13 +45,10 @@ Before starting, ensure you have the following installed:
 Follow these steps to set up the project on your local machine:
 
 ### 1. Clone the Repository
-\`\`\`bash
 git clone https://github.com/ravanabdinli/WM1-Project-2-Group-6.git
-\`\`\`
+
 Navigate into the project directory:
-\`\`\`bash
 cd WM1-Project-2-Group-6
-\`\`\`
 
 ### 2. Install Dependencies
 Install all necessary packages for the React application:
