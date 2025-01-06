@@ -52,22 +52,18 @@ cd WM1-Project-2-Group-6
 
 ### 2. Install Dependencies
 Install all necessary packages for the React application:
-\`\`\`bash
 npm install
-\`\`\`
 
 ### 3. Install EmailJS SDK
 The app uses **EmailJS** for email functionality. Install the SDK:
-\`\`\`bash
 npm install --save @emailjs/browser
-\`\`\`
+
 Refer to the EmailJS installation documentation for additional details: [EmailJS SDK Installation](https://www.emailjs.com/docs/sdk/installation/).
 
 ### 4. Install React-DnD (Drag and Drop)
 For drag-and-drop functionality, the app uses **React-DnD**. Install the necessary packages:
-\`\`\`bash
 npm install react-dnd react-dnd-html5-backend
-\`\`\`
+
 Refer to the official documentation for more information: [React-DnD Documentation](https://react-dnd.github.io/react-dnd/about).
 
 ---
@@ -78,15 +74,11 @@ The app uses a mock API with **JSON-Server**. Follow these steps to set it up:
 
 ### 1. Install JSON-Server
 If you don’t already have JSON-Server installed globally:
-\`\`\`bash
 npm install -g json-server
-\`\`\`
 
 ### 2. Run the JSON Server
 To start the server and serve the `db.json` file:
-\`\`\`bash
 json-server --watch db.json --port 3001
-\`\`\`
 
 **Note**: The server will be accessible at \`http://localhost:3001\`. This URL will act as your backend API endpoint.
 
@@ -95,15 +87,12 @@ json-server --watch db.json --port 3001
 ## Starting the React App and JSON Server Concurrently
 
 To run the React app and JSON server concurrently, install the **concurrently** package:
-\`\`\`bash
 npm install --save concurrently
-\`\`\`
+
 
 
 Now, to start both the React app and JSON server, simply run:
-\`\`\`bash
 npm start
-\`\`\`
 
 - The React app will run on \`http://localhost:3000\`.
 - The JSON server will run on \`http://localhost:3001\`.
@@ -146,12 +135,6 @@ We welcome contributions! To contribute:
 3. Commit your changes: \`git commit -m "Add feature-name"\`.
 4. Push to the branch: \`git push origin feature-name\`.
 5. Create a pull request.
-
----
-
-## License
-
-This project is licensed under the MIT License.
 
 ---
 
